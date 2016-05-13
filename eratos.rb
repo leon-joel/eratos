@@ -35,7 +35,8 @@ module PrimeNumber
     primes
   end
 
-
+  # 改良版
+  # - 2の倍数を最初から除外してみた
   def self.eratosthenes2(limit)
     # 探索リスト
     search_list = []
